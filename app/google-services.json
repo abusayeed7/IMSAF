@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "279470643375",
+    "project_id": "imsaf-c413c",
+    "storage_bucket": "imsaf-c413c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279470643375:android:a9ef4fd2691f3a27d69c5a",
+        "android_client_info": {
+          "package_name": "in.imsaf.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279470643375-sp27rbmg8tcmb97uev6ho8pr7vlc496m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZN-5QqN_MKv27T6oNhbes8GOqj1p3noM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279470643375-sp27rbmg8tcmb97uev6ho8pr7vlc496m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

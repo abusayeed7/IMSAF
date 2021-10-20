@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IndiaPan</string>
+
+    <string name="image_chooser">File Chooser</string>
+
+    <string name="previous">previous</string>
+    <string name="next">next</string>
+    <string name="reload">reload</string>
+    <string name="todo">TODO</string>
+    <string name="n_welcome_to_nindia_pan_servece">\n WELCOME TO IMSAF</string>
+    <string name="developed_by_digi_world">Developed by IMSAF (Dept. of IT)</string>
+    <string name="retry">Retry</string>
+    <string name="welcome_to_imsaf">WELCOME TO IMSAF</string>
+    <string name="welcome">"Welcome !"</string>
+
+
+</resources>

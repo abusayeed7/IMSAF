@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.imsaf.app.ContactUs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="25dp"
+        android:text="HELP &amp; SUPPORT"
+        android:textAlignment="center"
+        android:textColor="#2E86C1"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/support"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_below="@id/contact"
+                android:src="@drawable/help" />
+
+            <TextView
+                android:id="@+id/contact1"
+                android:layout_width="411dp"
+                android:layout_height="74dp"
+                android:layout_below="@id/support"
+                android:gravity="center_horizontal"
+                android:text="📞"
+                android:textAlignment="center"
+                android:textColor="#E67E22"
+                android:textSize="45dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toTopOf="@+id/contact2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/support"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/contact2"
+                android:layout_width="match_parent"
+                android:layout_height="131dp"
+                android:layout_below="@id/contact1"
+
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:text="9932825058\n8001280271\n9088574651"
+                android:textAlignment="center"
+                android:textColor="#830498"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toTopOf="@+id/contact3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/contact3"
+        android:layout_width="411dp"
+        android:layout_height="74dp"
+        android:layout_below="@id/contact2"
+        android:gravity="center_horizontal"
+        android:text="📧"
+        android:textAlignment="center"
+        android:textColor="#E67E22"
+        android:textSize="45dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/contact4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/contact4"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_below="@id/contact3"
+                android:gravity="center_horizontal"
+                android:linksClickable="true"
+                android:text="info@imsaf.in\nimsaf.org@gmail.com"
+                android:textAlignment="center"
+                android:textColor="#830498"
+                android:textSize="27dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toTopOf="@+id/contact5"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="2dp" />
+
+            <TextView
+                android:id="@+id/contact10"
+                android:layout_width="411dp"
+                android:layout_height="74dp"
+                android:layout_below="@id/contact4"
+                android:gravity="center_horizontal"
+                android:text="🌐"
+                android:textAlignment="center"
+                android:textColor="#E67E22"
+                android:textSize="45dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toTopOf="@+id/contact4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/contact11"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_below="@id/contact10"
+                android:gravity="center_horizontal"
+                android:linksClickable="true"
+                android:text="www.imsaf.in"
+                android:textAlignment="center"
+                android:textColor="#830498"
+                android:textSize="27dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toTopOf="@+id/contact5"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="2dp" />
+
+    <TextView
+        android:id="@+id/contact5"
+        android:layout_width="411dp"
+        android:layout_height="74dp"
+        android:layout_below="@id/contact11"
+        android:gravity="center_horizontal"
+        android:text="⏰"
+        android:textAlignment="center"
+        android:textColor="#E67E22"
+        android:textSize="45dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/contact6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/contact6"
+        android:layout_width="409dp"
+        android:layout_below="@id/contact5"
+        android:layout_height="57dp"
+        android:gravity="center_horizontal"
+        android:text="24 x 7"
+        android:textAlignment="center"
+        android:textColor="#830498"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="624dp" />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/supportcontact"
+                android:layout_width="match_parent"
+                android:layout_height="390dp"
+                android:layout_below="@id/contact6"
+                android:src="@drawable/email" />
+
+
+
+
+</RelativeLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

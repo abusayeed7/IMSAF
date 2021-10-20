@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="in.imsaf.app.MainActivity">
+
+
+
+
+
+
+    <WebView
+        android:id="@+id/myWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="-0dp"
+            android:progress="20" />
+
+    </WebView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="382dp"
+                android:layout_below="@id/text"
+                android:src="@drawable/nerror" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:gravity="center"
+                android:text="Opps!\nNo Internet Connection Found!\nCheck Your Connection and Try Again..."
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                />
+
+
+            <Button
+                android:id="@+id/btnNoConnection"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/img"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="131dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="130dp"
+                android:layout_marginRight="131dp"
+                android:background="#13AC52"
+                android:bottomLeftRadius="7dp"
+                android:bottomRightRadius="7dp"
+                android:gravity="center"
+                android:text="retry"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:topLeftRadius="7dp"
+                android:topRightRadius="7dp"
+                tools:ignore="TextContrastCheck" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+

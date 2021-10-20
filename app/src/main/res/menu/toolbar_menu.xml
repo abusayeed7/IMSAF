@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+
+        android:title="Refresh"
+        android:id="@+id/nav_reload"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        app:showAsAction="always"
+        />
+
+    <item
+
+        android:title="⎗  Previous Page"
+        android:id="@+id/nav_previous"
+        android:icon="@drawable/ic_keyboard_arrow_left_black_24dp"
+        app:showAsAction="never"
+        />
+
+
+
+    <item
+        android:id="@+id/nav_next"
+        android:icon="@drawable/ic_navigate_next_black_24dp"
+        app:showAsAction="withText"
+        android:title="⎘  Next Page"
+        />
+
+    <item
+
+        android:title="Home"
+        android:id="@+id/nav_home"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_home_black_24dp"
+        />
+
+
+
+    <item android:title="☏ Contact Us"
+        android:id="@+id/contact_us"
+        app:showAsAction="never"/>
+
+
+
+    <item
+        android:title="🔗Share App"
+        android:id="@+id/menu_share"
+        android:icon="@drawable/ic_share_black_24dp"
+        />
+    <item
+        android:title="⎋ Exit"
+        android:id="@+id/exit"
+
+        />
+
+
+</menu>
